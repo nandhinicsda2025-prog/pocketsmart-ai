@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Party Budget Planner</title>
+</head>
+
+<body>
+
+<h1>🎉 Party Budget Planner</h1>
+
+<form action="/generate-party" method="post">
+
+    <label>Total Budget:</label>
+
+    <input type="number"
+           name="budget"
+           required>
+
+    <br><br>
+
+    <label>Number of Guests:</label>
+
+    <input type="number"
+           name="guests"
+           required>
+
+    <br><br>
+
+    <label>Event Type:</label>
+
+    <select name="event_type">
+
+        <option>Birthday</option>
+        <option>Wedding</option>
+        <option>Corporate</option>
+        <option>Anniversary</option>
+
+    </select>
+
+    <br><br>
+
+    <button type="submit">
+        Plan My Party
+    </button>
+
+</form>
+
+</body>
+
+</html>
