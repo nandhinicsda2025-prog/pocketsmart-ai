@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jewelry Budget Planner</title>
+</head>
+
+<body>
+
+<h1>💎 Jewelry Budget Planner</h1>
+
+<form action="/generate-jewelry" method="post">
+
+    <label>Budget:</label>
+
+    <input type="number"
+           name="budget"
+           required>
+
+    <br><br>
+
+    <label>Occasion:</label>
+
+    <select name="occasion">
+
+        <option>Wedding</option>
+        <option>Birthday</option>
+        <option>Party</option>
+        <option>Traditional Function</option>
+
+    </select>
+
+    <br><br>
+
+    <label>Style:</label>
+
+    <select name="style">
+
+        <option>Traditional</option>
+        <option>Modern</option>
+        <option>Simple</option>
+        <option>Bridal</option>
+
+    </select>
+
+    <br><br>
+
+    <button type="submit">
+        Find Jewelry
+    </button>
+
+</form>
+
+</body>
+
+</html>
