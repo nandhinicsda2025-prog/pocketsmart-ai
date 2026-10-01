@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Budget Planner</title>
+</head>
+
+<body>
+
+<h1>🏠 Home Budget Planner</h1>
+
+<form action="/generate-home" method="post">
+
+    <label>Budget:</label>
+    <input type="number" name="budget"
+           placeholder="Enter budget" required>
+
+    <br><br>
+
+    <label>Room:</label>
+
+    <select name="room">
+
+        <option>Living Room</option>
+        <option>Bedroom</option>
+        <option>Kitchen</option>
+        <option>Dining Room</option>
+
+    </select>
+
+    <br><br>
+
+    <label>Style:</label>
+
+    <select name="style">
+
+        <option>Modern</option>
+        <option>Traditional</option>
+        <option>Minimal</option>
+        <option>Luxury</option>
+
+    </select>
+
+    <br><br>
+
+    <button type="submit">
+        Get Recommendations
+    </button>
+
+</form>
+
+</body>
+</html>
